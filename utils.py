@@ -45,4 +45,8 @@ def count_letters(input_string, letter):
 if __name__ == "__main__":
   print("This file is being run directly.")
 # FREEZE CODE END
-
+print("Please type your message\n")
+mensaje= input ("")
+numero= count_letters(mensaje,"a")
+cambio= flip(mensaje)+ str(numero)
+print("Your enconded message is:", cambio)
