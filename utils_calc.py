@@ -1,39 +1,41 @@
 def add(num1, num2):
-    if num1 is int & num2 is int:
-        sum = int(num1+num2)
-    else:
-        sum = num1+num2
-    return sum
+    result = num1+num2
+    if isinstance(num1, float) or isinstance(num2, float):
+        return float(result)
+    
+    return result
 
 def sub(num1, num2):
-    if num1 is int & num2 is int:
-        dif = int(num1-num2)
-    else:
-        dif = num1-num2
-    return dif
+    result = num1-num2
+    if isinstance(num1, float) or isinstance(num2, float):
+        return float(result)
+    
+    return result
 
 def multiply(num1, num2):
-    if num1 is int & num2 is int:
-        mult = int(num1*num2)
-    else:
-        mult = num1*num2
-    return mult
+    result = num1*num2
+    if isinstance(num1, float) or isinstance(num2, float):
+        return float(result)
+    
+    return result
 
 def divide(num1, num2):
     if num2 == 0:
-        div = "Error: Division by zero is not allowed."
-        print(div)
-    else:
-        div = num1/num2
-    return div
+        return "Error: Division by zero is not allowed."
+    
+    result = num1 / num2
+    
+    if isinstance(num1, float) or isinstance(num2, float):
+        return float(result)
+    
+    return result
 
 def exponent(base, exp):
-    if base is int & exp is int:
-        power = int(base**exp)
-    else:
-       power = base**exp
-       
-    return power
+    result = num1**num2
+    if isinstance(num1, float) or isinstance(num2, float):
+        return float(result)
+    
+    return result
 
 def modulo(num1, num2):
     if num2 == 0:
