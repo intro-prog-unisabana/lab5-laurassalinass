@@ -1,0 +1,6 @@
+print("Enter the start value:\n")
+inicial=input()
+print("Enter the end value:\n")
+final= input()
+aleatorio= random.seed(123)
+print("Generated random number:", aleatorio)
