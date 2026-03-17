@@ -14,11 +14,14 @@ def get_daily_steps():
 def total_steps(nums):
     """Return total steps."""
     total = sum(nums)
+    return total
 
 # Function to calculate average daily steps
-def average_steps(total, days=7):
+def average_steps(total = 0, days=7):
     """Return average steps as int."""
-    return total // days
+    average = total // days
+    return average
+
 
 # Function to get maximum steps
 def max_steps(nums):
