@@ -31,21 +31,23 @@ def divide(num1, num2):
     return result
 
 def exponent(base, exp):
-    result = num1**num2
-    if isinstance(num1, float) or isinstance(num2, float):
+    result = base**exp
+
+    if isinstance(base, float) or isinstance(exp, float):
         return float(result)
     
     return result
 
 def modulo(num1, num2):
     if num2 == 0:
-        mod = "Error: Division by zero is not allowed."
-        print(mod)
-    elif num1 is int & num2 is int:
-        mod = int(num1 % num2)
-    else:
-        mod = num1 % num2
-    return mod
+        return "Error: Division by zero is not allowed."
+    
+    result = num1 % num2
+    
+    if isinstance(num1, float) or isinstance(num2, float):
+        return float(result)
+    
+    return result
 
 def floor_divide(num1, num2):
     if num2 == 0:
