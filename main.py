@@ -5,7 +5,7 @@ operaciones_dos = ["add", "subtract", "multiply", "divide", "exponent", "modulo"
 operaciones_uno = ["absolute"]
 
 while True:
-    op = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute or exit):\n")
+    op = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute or exit):\n").lower()
 
     if op == "exit":
         break
@@ -33,9 +33,7 @@ while True:
 
     elif op in operaciones_uno:
         num = float(input("Enter the number:\n"))
-
         resultado = absolute(num)
-
         print(f"The result is: {resultado}")
 
     else:
