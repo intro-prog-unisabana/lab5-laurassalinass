@@ -1,8 +1,6 @@
-from utils import flip
-from utils import count_letters
+from utils import *
 
-print("Please type your message")
-mensaje= input ("")
-numero= count_letters(mensaje,"a")
-cambio= flip(mensaje)+ str(numero)
-print("Your enconded message is:", cambio)
+mensaje = input("Please type your message\n")
+codificado = flip(mensaje) + str(count_letters(mensaje, 'a'))
+
+print(f"Your encoded message is: {codificado}")
