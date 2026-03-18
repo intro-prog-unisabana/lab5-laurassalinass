@@ -3,7 +3,7 @@ Lab 5
 /******************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas: 13
 
 
 /******************************************************************************
@@ -23,7 +23,7 @@ Número de horas:
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+[https://github.com/laurassalinass]
 
 /******************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -34,5 +34,5 @@ Número de horas:
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
+[Esta tarea de programacion representa mi propio trabajo de acuerdo con las regulaciones de la Universidad.  /s/ Laura Camila Rodriguez S]
 
