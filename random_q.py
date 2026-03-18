@@ -1,8 +1,10 @@
 import random
-aleatorio= random.seed(123)
-print("Enter the start value:\n")
-inicial=int(input())
-print("Enter the end value:\n")
-final= int(input())
-entero_aleatorio = random.randint(inicial, final)
-print("Generated random number:", entero_aleatorio)
+
+random.seed(123)
+
+start = int(input("Enter the start value:\n"))
+end = int(input("Enter the end value:\n"))
+
+numero = random.randint(start, end)
+
+print(f"Generated random number: {numero}")
